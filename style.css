@@ -18,3 +18,33 @@
     width: 60vw;
     margin: left;
 }
+
+.container{
+    margin-top: 20px;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > button{
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.contTb{
+    height: 80vh;
+    width: 60vw;
+    margin-left: 20vw;
+}
+
+.contTb > table{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contTb > table, td{
+    border: 1px solid black;
+}
