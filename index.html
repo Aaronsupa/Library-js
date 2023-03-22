@@ -13,18 +13,22 @@
         </div>
         <div class = "container">
             <button id = "mybtn">Add Book</button>
+            <div id = "popUp">
+                <h1>Add Book</h1>
+                <form id = "myform">
+                    <p><input id = "name" placeholder="Name" required></p>
+                    <p><input id = "author" placeholder="Author" required></p>
+                    <p><input id = "pagecnt" placeholder="Page Count" required></p>
+                    <button id = "subbtn">Submit</button>
+                </form>
+            </div>
         </div>
         <div class = "contTb">
-            <table>
+            <table id = "bookTable">
                 <tr>
                     <th>Name</th>
                     <th>Author</th>
                     <th>Page Count</th>
-                </tr>
-                <tr>
-                    <td>One Hundred Years of Solitude</td>
-                    <td>Gabriel Garcia Marquez</td>
-                    <td>417</td>
                 </tr>
             </table>
         <div>
